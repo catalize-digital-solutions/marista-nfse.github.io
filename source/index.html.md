@@ -1,5 +1,5 @@
 ---
-title: API Reference
+title: API Docs
 
 language_tabs: # must be one of https://git.io/vQNgJ
   - shell
@@ -8,7 +8,6 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - javascript
 
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
   - <a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a>
 
 includes:
@@ -19,15 +18,13 @@ search: true
 code_clipboard: true
 ---
 
-# Introduction
+# Introdução
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+Seja bem-vindo a NFSe API! Você poderá utilizar nossa API para acessar informações referente às notas de serviço emitidas pelo Grupo Marista  para qualquer prefeitura (em que o grupo atua) através de um único endpoint.
 
-We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+Nós disponibilizamos exemplos de implementação com as linguagens de programação Shell, Ruby, Python, e JavaScript! Você poderá visualizar códigos de exemplo no menu à direira da documentação and poderá alterar a linguagem desejada nas tabs acima do menu.
 
-This example API documentation page was created with [Slate](https://github.com/slatedocs/slate). Feel free to edit it and use it as a base for your own API's documentation.
-
-# Authentication
+# Autenticação
 
 > To authorize, use this code:
 
@@ -57,9 +54,9 @@ let api = kittn.authorize('meowmeowmeow');
 
 > Make sure to replace `meowmeowmeow` with your API key.
 
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
+NFSe API utiliza chaves de API para permitir acesso à consultas na API. Você poderá requisitar uma nova chave através do nosso e-mail [suporte@catalize.com.br]<a href mailto:suporte@catalize.com.br></a>
 
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
+A autenticação deve acontecer no cabeçalho (header) de todos os requests feitos para nosso endpoint conforme exemplo abaixo:
 
 `Authorization: meowmeowmeow`
 
